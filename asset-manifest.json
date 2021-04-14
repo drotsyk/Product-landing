@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Product-landing/static/css/main.cad6cab4.chunk.css",
+    "main.js": "/Product-landing/static/js/main.13ec8216.chunk.js",
+    "main.js.map": "/Product-landing/static/js/main.13ec8216.chunk.js.map",
+    "runtime-main.js": "/Product-landing/static/js/runtime-main.c6cb43b0.js",
+    "runtime-main.js.map": "/Product-landing/static/js/runtime-main.c6cb43b0.js.map",
+    "static/css/2.ba72297e.chunk.css": "/Product-landing/static/css/2.ba72297e.chunk.css",
+    "static/js/2.f03a3e37.chunk.js": "/Product-landing/static/js/2.f03a3e37.chunk.js",
+    "static/js/2.f03a3e37.chunk.js.map": "/Product-landing/static/js/2.f03a3e37.chunk.js.map",
+    "index.html": "/Product-landing/index.html",
+    "static/css/2.ba72297e.chunk.css.map": "/Product-landing/static/css/2.ba72297e.chunk.css.map",
+    "static/css/main.cad6cab4.chunk.css.map": "/Product-landing/static/css/main.cad6cab4.chunk.css.map",
+    "static/js/2.f03a3e37.chunk.js.LICENSE.txt": "/Product-landing/static/js/2.f03a3e37.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/Product-landing/static/media/set.cc6e5724.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6cb43b0.js",
+    "static/css/2.ba72297e.chunk.css",
+    "static/js/2.f03a3e37.chunk.js",
+    "static/css/main.cad6cab4.chunk.css",
+    "static/js/main.13ec8216.chunk.js"
+  ]
+}
