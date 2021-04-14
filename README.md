@@ -1,4 +1,6 @@
-<h1><a href="https://drotsyk.github.io/Product-landing/">Product landing</a></h1>
+<h1>Result</h1>
+<hr>
+<h2><a href="https://drotsyk.github.io/Product-landing/">Product landing</a></h2>
 <hr>
 <h1>How to start</h1>
 <ul>
