@@ -1,0 +1,25 @@
+.faq{
+  max-width: 1044px;
+  margin: 0 auto;
+  padding: 0 20px 160px 20px;
+}
+.faq__title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #111563;
+}
+.faq__btn{
+  padding: 0 40px;
+  background: #C774EE;
+  border-radius: 8px;
+  border: none;
+  height: 53px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: white;
+  display: block;
+  margin: 0 auto;
+}

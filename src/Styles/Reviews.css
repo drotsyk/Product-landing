@@ -1,0 +1,28 @@
+.reviews{
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+.reviews__title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #111563;
+}
+.reviews__subtitle{
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-align: center;
+  color: #63718E;
+  padding: 10px 0 20px 0;
+}
+.swiper-wrapper{
+  padding: 20px 0;
+}
+@media (max-width:1220px) {
+  .reviews{
+    padding: 120px 20px;
+  }
+}

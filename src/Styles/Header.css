@@ -1,0 +1,144 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  z-index: 10;
+  padding: 0 20px;
+}
+.header__container{
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+}
+.menu__body{
+  display: flex;
+}
+.menu__call {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #63718E;
+}
+.menu__btn{
+  background-color: inherit;
+  width: 103px;
+  align-self: center;
+  height: 35px;
+  border: 2px solid #63718E;
+  border-radius: 10px;
+  margin: 0 0 0 20px;
+  transition: 1s ease;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  color: #63718E;
+}
+.menu__btn:hover{
+  background-color: #C774EE;
+  color: white;
+  border: none;
+}
+.menu__list li + li {
+  margin: 0 0 0 20px;
+}
+.menu__link {
+  color: #63718E;
+  font-size: 18px;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.menu__link:hover {
+  text-decoration: underline;
+}
+.menu__icon {
+  display: none;
+}
+@media (min-width: 838px) {
+  .menu__list{
+    display: flex;
+    align-items: center;
+  }
+  .menu__link{
+    padding: 10px 0;
+  }
+}
+@media (max-width: 838px){
+  .menu__body{
+    flex-direction: column;
+  }
+  .menu__btn{
+    margin: 20px 0 0 0;
+  }
+  .menu__icon{
+    display: block;
+    z-index: 5;
+    position: relative;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+  }
+  .menu__icon span,
+  .menu__icon::before,
+  .menu__icon::after{
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    transition: 0.4s;
+    border-radius: 10px;
+    background-color: #63718E;
+  }
+  .menu__icon::before,
+  .menu__icon::after {
+    content: "";
+  }
+  .menu__icon::before {
+    top: 0;
+  }
+  .menu__icon::after {
+    bottom: 0;
+  }
+  .menu__icon span { 
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+  .menu__body{
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+    opacity: 0.9;
+    padding: 100px 30px 30px 30px;
+    transition: left 0.3s ease 0s;
+    left: -100%;
+  }
+  .menu__body--active {
+    left: 0;
+  }
+  .menu__list li + li {
+    flex-wrap: wrap;
+    margin: 30px 0 0 0;
+  }
+  .menu__link{
+    font-size: 24px;
+  }
+  .header__menu--active .menu__icon {
+    transform: rotate(225deg);
+    transition: 0.4s;
+  }
+  .header__menu--active .menu__icon::after{
+    top: 0;
+  }
+  .header__menu--active .menu__icon span{
+    top: 0;
+    transform: rotate(90deg);
+  }
+}

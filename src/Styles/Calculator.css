@@ -1,0 +1,183 @@
+.calculator{
+  padding: 0 20px;
+  color: #111563;
+}
+.calculator__wrapper{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  max-width: 1180px;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  padding: 60px 100px;
+  border-radius: 8px
+}
+.calculator__title{
+  font-size: 32px;
+  line-height: 38px;
+  color: #111563;
+}
+.calculator__subtitle{
+  font-size: 18px;
+  line-height: 150%;
+  color: #63718E;
+  margin: 10px 0 40px 0;
+}
+.calculator__row {
+  display: flex;
+  padding: 15px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.calculator__column {
+  width: 180px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+.calculator__row .select + .select {
+  margin: 0 0 0 15px;
+}
+.calculator__number {
+  font-family: "Epilogue";
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50px;
+  color: #C774EE;
+}
+.calculator__btn {
+  width: 180px;
+  height: 50px;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  background: #C774EE;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.calculator__calendar {
+  width: 180px;
+  height: 50px;
+  background: #F9FAFC;
+  box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+  border-radius: 10px;
+  margin: 0 0 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 23px;
+  padding: 15px;
+  position: relative;
+}
+.calculator__calendar-body {
+  position: relative;
+}
+.test {
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+.inputDate {
+  right: 2%;
+  top: 29%;
+  position: absolute;
+  clip: rect(auto,auto,auto,120px);
+  background-color: inherit;
+}
+input[type="date"]::-webkit-calendar-picker-indicator { 
+  background: url(../Assets/calendar.svg) center center/cover no-repeat;
+}
+.inputDate:focus {
+  outline: none;
+}
+.counter__body {
+  width: 180px;
+  height: 50px;
+  background: #F9FAFC;
+  box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #111563;
+  margin: 0 0 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter__body button {
+  font-size: 24px;
+}
+.counter__body button{
+  background-color: inherit;
+}
+.counter__body div{
+  margin: 0 40px;
+}
+@media (max-width: 1200px) {
+  .calculator__column {
+    width: 100%;
+    justify-content: center;
+  }
+ 
+  .calculator__row {
+    justify-content: center;
+  }
+}
+@media (max-width:1024px) {
+  .calculator__calendar-body {
+    flex: 0 1 50%;
+  }
+  .calculator__calendar {
+    width: 100%;
+    margin: 0;
+  }
+  .inputDate {
+    top: 37%;
+    right: 15%;
+  }
+  .calculator__row > div{
+    padding: 15px;
+  }
+  .calculator__row .select + .select {
+    margin: 0 0 0 0;
+  }
+  .counter__body {
+    margin: 0;
+  }
+  .calculator__counter {
+    flex: 0 1 50%;
+  }
+  .counter__body {
+    width: 100%;;
+  }
+  .calculator__row {
+    padding: 0;
+  }
+}
+@media (max-width:796px) {
+  .calculator__calendar-body {
+    flex: 1 1 100%;
+  }
+  .calculator__wrapper {
+    padding: 60px 0;
+  }
+  .calculator__counter {
+    flex: 1 1 100%;
+  }
+  .calculator__row * {
+    width: 100%;
+  }
+}
