@@ -1,5 +1,10 @@
 <h1>Result</h1>
 <hr>
+  <h1>Technology</h1>
+<ul>
+ <li>React</li>
+ <li>CSS</li>
+</ul
 <h2><a href="https://drotsyk.github.io/Product-landing/">Product landing</a></h2>
 <hr>
 <h2>Preview</h2>
@@ -12,8 +17,4 @@
   <li>Start project: npm start
   </ul>
 <hr>
-  <h1>Technology</h1>
-<ul>
- <li>React</li>
- <li>CSS</li>
-</ul
+
