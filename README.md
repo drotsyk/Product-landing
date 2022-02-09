@@ -8,9 +8,9 @@
 <h2><a href="https://drotsyk.github.io/Product-landing/">Product landing</a></h2>
 <hr>
 <h2>Preview</h2>
-<img src="https://user-images.githubusercontent.com/43176477/114689345-48bf2c00-9d1e-11eb-8123-c8da90e83679.png"></img>
+<img src="https://user-images.githubusercontent.com/43176477/153132028-9125111a-654f-45e3-9bf0-eb1af5636f8d.png"></img>
 <h2>Mobile version</h2>
-<img src="https://user-images.githubusercontent.com/43176477/114689640-950a6c00-9d1e-11eb-8572-f42764696daa.png"></img>
+<img src="https://user-images.githubusercontent.com/43176477/153132187-054de533-387b-439d-8388-fb2f6fdb2f5b.png"></img>
 <h1>How to start</h1>
 <ul>
   <li>Run this command: git clone https://github.com/drotsyk/Product-landing.git</li>
