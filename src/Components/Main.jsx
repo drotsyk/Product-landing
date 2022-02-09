@@ -17,13 +17,13 @@ export const Main = () => {
               </div>
               <button className="main__btn">Try for free</button>
             </div>
-                <img className="main__img" src="/Assets/computer.svg" alt="" />
+                <img className="main__img" src="./Assets/computer.svg" alt="" />
           </div>
         </div>
         <div className="main__row main__row--reverse">
-            <img className="main__img" src="/Assets/clock.svg" alt="" />
+            <img className="main__img" src="./Assets/clock.svg" alt="" />
           <div className="main__container">
-            <h1 className="main__title">Temporibus autem quibusdam et aut officiis debitis</h1>
+            <h1 className="main__title main__title--reverse">Temporibus autem quibusdam et aut officiis debitis</h1>
             <div className="main__subtitle">
               At vero eos et accusamus et iusto odio dignissimos ducimus,
               qui blanditiis praesentium voluptatum deleniti atque corrupti, 
